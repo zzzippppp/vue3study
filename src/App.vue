@@ -1,11 +1,12 @@
-<script setup lang="ts">
-  import {ref} from "vue";
+<script setup>
+import inputReq from "./inputReq.vue"
 
-  const msg = ref("Hello")
 </script>
 
 <template>
-  <h1>{{msg}}</h1>
+  <input-req v-for = "i in 10" ></input-req>>
 </template>
 
-<style scoped></style>
+<style>
+
+</style>
